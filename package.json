@@ -1,7 +1,7 @@
 {
   "name": "wn-fake-db",
   "version": "1.0.0",
-  "description": "Mock data for WN project",
+  "description": "Mock data script for WN project",
   "main": "index.js",
   "scripts": {
     "start": "node createUsers.js && node createPosts.js && node createComments.js"
