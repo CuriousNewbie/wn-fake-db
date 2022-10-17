@@ -26,7 +26,7 @@ const createUser = () => {
 
   const logName = name.slice(0, 4) + lastName.slice(0, 4);
   const email = logName + "@example.com";
-  const password = logName + "User";
+  const password = logName + process.env.password_end;
   let data = {
     id,
     name: logName,
